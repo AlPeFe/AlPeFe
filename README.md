@@ -1,5 +1,5 @@
 # 💫 About Me:
-🔭 .NET DEV from Barcelona<br>🌱 Learning Flutter, Dart, React, Tailwind, Typescript ...<br>💬 Ask me about Manga, Japan and photography !<br>⚡ In love with my fiance, father of 2 cats. 
+🔭 .NET DEV from Barcelona<br>
 
 
 ## 🌐 Socials:
