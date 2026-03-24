@@ -10,7 +10,7 @@ Desarrollador backend con pasión por crear sistemas inteligentes que resuelven 
 
 Lo que me diferencia:
 - **Arquitectura de Agentes IA**: Diseño y implemento sistemas multi-agente con LLMs locales (Ollama), MCP (Model Context Protocol), y frameworks como Microsoft.Agents.AI
-- **Full-Stack Development**: Desde APIs robustas en .NET hasta interfaces web interactivas con React y Three.js
+- **Full-Stack Development**: Desde APIs robustas en .NET hasta interfaces web modernas
 - **Automatización Inteligente**: Bots de Telegram, integración con Gmail/Calendar, pipelines de datos
 - **Privacidad-First**: Implementaciones que priorizan el control de datos del usuario
 
@@ -27,8 +27,6 @@ Lo que me diferencia:
 ![HTML/CSS](https://img.shields.io/badge/HTML%2FCSS-E34F26?style=for-the-badge&logo=html5&logoColor=white)
 
 ### Frontend & UI
-![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
-![Three.js](https://img.shields.io/badge/Three.js-000000?style=for-the-badge&logo=three.js&logoColor=white)
 ![TailwindCSS](https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white)
 ![Bootstrap](https://img.shields.io/badge/Bootstrap-7952B3?style=for-the-badge&logo=bootstrap&logoColor=white)
 
@@ -63,7 +61,7 @@ Lo que me diferencia:
 ### [POLAPER.BOT](https://github.com/AlPeFe/POLAPER.BOT)
 > Asistente personal IA con arquitectura multi-agente
 
-- **Tecnología**: .NET 10, React, Three.js, Ollama (LLM local)
+- **Tecnología**: .NET 10, Ollama (LLM local)
 - **Características**: 
   - Agentes IA especializados con function calling
   - Integración Telegram para acceso móvil
