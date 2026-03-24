@@ -156,8 +156,7 @@ Herramientas de IA que uso a diario:
 
 ## 📈 GitHub Stats
 
-![Profile Stats](https://github-readme-stats.vercel.app/api?username=AlPeFe&show_icons=true&theme=dark)
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=AlPeFe&layout=compact&theme=dark)
+![Profile Stats](https://github-readme-stats.vercel.app/api?username=AlPeFe&show_icons=true&theme=dark&rank_icon=github)
 
 ---
 
