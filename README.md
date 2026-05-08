@@ -1,97 +1,105 @@
 # 👤 Alex Pérez Ferreira
 
-**.NET Developer** & **AI Systems Architect** from **Barcelona**
+**.NET Backend Developer** & **AI Systems Architect** — Barcelona, Spain
 
-*Building intelligent systems that bridge robust backend architecture with modern AI capabilities — with privacy as a first principle.*
-
----
-
-## 🧠 Lo que hago
-
-Diseño y construyo sistemas donde el código y la inteligencia artificial trabajan juntos. Backend sólido en .NET, agentes IA que razonan y actúan, automatización de flujos de trabajo reales, y todo siempre con opción a funcionar en local sin depender de la nube.
+*Building intelligent systems that bridge robust backend architecture with modern AI capabilities — privacy as a first principle.*
 
 ---
 
-## 🛠 Capacidades técnicas
+## What I do
 
-### Backend & Arquitectura
-Diseño de APIs REST, arquitecturas de microservicios, patrones de dominio (CQRS, Repository, Unit of Work). C#/.NET es mi lengua materna — del legacy al código moderno con C# 13 y .NET 10.
+I design and build systems where code and artificial intelligence work together. Solid .NET backend, reasoning AI agents, real-world workflow automation, and always with the option to run fully locally without depending on the cloud.
 
-### IA Generativa & Agentes
-Sistemas multi-agente con LLMs locales (Ollama), Model Context Protocol (MCP) para conectar bases de datos con modelos de lenguaje, retrieval-augmented generation (RAG), y function calling para que los agentes actúen en el mundo real.
+---
 
-### Automatización & Workflows
-Bots de Telegram, integración con APIs de Google (Gmail, Calendar), pipelines de datos, cron jobs, y agentes que orquestan tareas automáticamente. Todo scripting y automatización posible — desde PowerShell hasta Python.
+## Technical Capabilities
+
+### Backend & Architecture
+REST API design, microservices architectures, domain patterns (CQRS, Repository, Unit of Work). C#/.NET is my native tongue — from legacy to modern code with C# 13 and .NET 10.
+
+### Generative AI & Agents
+Multi-agent systems with local LLMs (Ollama), Model Context Protocol (MCP) for connecting databases with language models, retrieval-augmented generation (RAG), and function calling so agents can act in the real world.
+
+### Automation & Workflows
+Telegram bots, Google API integration (Gmail, Calendar), data pipelines, cron jobs, and agents that orchestrate tasks automatically. Scripting and automation across PowerShell, Python, and more.
 
 ### Full-Stack & UI
-APIs en .NET, interfaces web en React/Vite, automatización de browser con Playwright. También TUI interactivas en terminal para herramientas de administración de servidores.
+APIs in .NET, web interfaces in React/Vite, browser automation with Playwright. Interactive TUIs in the terminal for server administration tools.
 
-### Bases de datos
-SQL Server en producción (contexto sanitario/GAM), SQLite para proyectos personales, diseño de esquemas relacionales, procedimientos almacenados, y conexión inteligente con LLMs vía MCP.
+### Databases
+SQL Server in production (healthcare/GAM sector), SQLite for personal projects, relational schema design, stored procedures, and intelligent LLM connectivity via MCP.
 
 ---
 
-## 🔧 Stack tecnológico principal
+## Tech Stack
 
 ```
-Lenguajes:       C# · TypeScript · Python · JavaScript · PowerShell
+Languages:      C# · TypeScript · Python · JavaScript · PowerShell
 Backend:        ASP.NET Core · FastAPI · Minimal APIs
-IA:             Ollama · Microsoft Agents AI · MCP · RAG
-Bases de datos: SQL Server · SQLite
+AI:             Ollama · Microsoft Agents AI · MCP · RAG
+Databases:      SQL Server · SQLite
 Cloud:          Azure (App Services, Functions, SQL Database)
 DevOps:         Docker · GitHub Actions · CI/CD
-Automatización: Telegram Bot API · Gmail OAuth · Playwright · Hangfire
+Automation:     Telegram Bot API · Gmail OAuth · Playwright · Hangfire
 UI:             React · Three.js · TailwindCSS · Spectre.Console
 ```
 
 ---
 
-## 🤝 Proyectos significativos
+## Notable Projects
 
-###POLAPER.BOT
-Asistente personal IA con arquitectura multi-agente. Combina .NET 10, Ollama (LLM local), React + Three.js para interfaz 3D con avatar conversacional. Plugins para Gmail, Calendar, búsqueda web, sistema de archivos. Funciona al 100% en local — privacidad garantizada.
+### POLAPER.BOT
+Personal AI assistant with multi-agent architecture. Combines .NET 10, Ollama (local LLM), React + Three.js for a 3D interface with a conversational avatar. Plugins for Gmail, Calendar, web search, filesystem. Runs 100% locally — privacy guaranteed.
 
 ### opencode
-Colaboración en el agente de codificación IA open source. TypeScript/Node.js, soporte multi-plataforma (npm, brew, scoop, choco).
+Collaboration on the open source AI coding agent. TypeScript/Node.js, multi-platform support (npm, brew, scoop, choco).
 
 ### SqlServerMcp
-Servidor MCP para SQL Server — expone esquema y reglas de negocio como recursos contextuales para LLMs. Type-safe en C#, solo lectura (SELECT), integrable con Microsoft Copilot y cualquier agente compatible con MCP.
+MCP server for SQL Server — exposes schema and business rules as contextual resources for LLMs. Type-safe in C#, read-only (SELECT), integrable with Microsoft Copilot and any MCP-compatible agent.
 
 ### hanni-obsidian-workflow
-Sistema de gestión de proyectos basado en Obsidian Canvas con agente IA (Hermes Agent). Nodos coloreados con semántica (verde=Ready, rojo=Human Intervention, azul=Completado), polling automático, notificaciones Telegram.
+Project management system based on Obsidian Canvas with AI agent (Hermes Agent). Color-coded nodes with semantics (green=Ready, red=Human Intervention, blue=Completed), automatic polling, Telegram notifications.
 
 ### PolaperTaskBoard
-Kanban board con dependencias entre tareas, recursos globales y multi-selección. FastAPI + aiosqlite + TypeScript vanilla. API REST en puerto 3847, drag & drop, flechas SVG para dependencias.
+Kanban board with task dependencies, global resources, and multi-selection. FastAPI + aiosqlite + vanilla TypeScript. REST API, drag & drop, SVG arrows for dependencies.
 
 ---
 
-## 📡 Cómo trabajo con IA
+## How I work with AI
 
-Tengo agentes IA ejecutándose de forma permanente para automatizar tareas recurrentes:
+I run AI agents permanently to automate recurring tasks:
 
-- **Hermes Agent** como orquestador principal — gestionando el blog, skills, kanban, monitorización
-- **Agentes especializados** para tareas concretas (scraping, documentación, coding)
-- **MCP servers** para dar contexto a LLMs sobre bases de datos y sistemas
-- **LLMs locales** para todo lo que requiera privacidad (Ollama + llama3.1:8b)
+- **Hermes Agent** as the main orchestrator — managing blog, skills, kanban, monitoring
+- **Specialized agents** for specific tasks (scraping, documentation, coding)
+- **MCP servers** to give LLMs context about databases and systems
+- **Local LLMs** for anything requiring privacy (Ollama + llama3.1:8b)
 
-Flujo típico: un agente detecta una necesidad → ejecuta la tarea → notifica el resultado. Sin intervención humana para tareas rutinarias.
-
----
-
-## 🌍 Contexto de trabajo
-
-- **Barcelona** — desarrollo remote
-- **Sector sanitario** — GAM (Sistema de Gestión y Administración Médica) para transporte sanitario, SQL Server en producción, reglas de negocio complejas
-- **Blog personal** — hanni (localhost:5000), Flask + SQLite, sistema de recetas con Fujifilm X100VI
-- **Privacidad first** — preferencia por soluciones locales sobre servicios cloud cuando es posible
+Typical flow: an agent detects a need → executes the task → notifies the result. No human intervention for routine tasks.
 
 ---
 
-## 📫 Canales
+## Context
 
-- [GitHub](https://github.com/AlPeFe) — código y proyectos
-- [Blog](http://localhost:5000) — experiments y recetas
+- **Barcelona** — remote development
+- **Healthcare sector** — GAM (Medical Administration and Management System) for medical transport, SQL Server in production, complex business rules
+- **Personal blog** — hanni (localhost:5000), Flask + SQLite, recipe system with Fujifilm X100VI
+- **Privacy first** — preference for local solutions over cloud services when possible
 
 ---
 
-*Última actualización: Mayo 2026*
+## Current Exploration
+
+Over 10 years with .NET backend, now actively exploring:
+- **Cybersecurity** — offensive and defensive techniques
+- **Artificial Intelligence** — agentic systems, local LLMs, RAG architectures
+
+---
+
+## Connect
+
+- [GitHub](https://github.com/AlPeFe) — code and projects
+- [Blog](http://localhost:5000) — experiments and recipes
+
+---
+
+*Last updated: May 2026*
