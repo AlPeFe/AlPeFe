@@ -29,9 +29,11 @@ Lo que me diferencia:
 ### Frontend & UI
 ![TailwindCSS](https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white)
 ![Bootstrap](https://img.shields.io/badge/Bootstrap-7952B3?style=for-the-badge&logo=bootstrap&logoColor=white)
+![Three.js](https://img.shields.io/badge/Three.js-Avatar-black?logo=three.js)
 
 ### Backend & APIs
 ![ASP.NET Core](https://img.shields.io/badge/ASP.NET_Core-512BD4?style=for-the-badge&logo=.net&logoColor=white)
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white)
 ![REST APIs](https://img.shields.io/badge/REST_APIs-009688?style=for-the-badge&logo=api&logoColor=white)
 ![MCP Server](https://img.shields.io/badge/MCP_Server-FF6B6B?style=for-the-badge&logo=server&logoColor=white)
 
@@ -61,8 +63,8 @@ Lo que me diferencia:
 ### [POLAPER.BOT](https://github.com/AlPeFe/POLAPER.BOT)
 > Asistente personal IA con arquitectura multi-agente
 
-- **Tecnología**: .NET 10, Ollama (LLM local)
-- **Características**: 
+- **Tecnología**: .NET 10, Ollama (LLM local), React, Three.js
+- **Características**:
   - Agentes IA especializados con function calling
   - Integración Telegram para acceso móvil
   - Interfaz web 3D con avatar conversacional
@@ -70,8 +72,48 @@ Lo que me diferencia:
   - Búsqueda web inteligente y scraping
   - Privacidad garantizada con LLM local
 
+### [opencode](https://github.com/AlPeFe/opencode)
+> The open source AI coding agent — Colaboración en el proyecto opencode.ai
+
+- **Tecnología**: TypeScript, Node.js
+- **Características**:
+  - Agente de codificación IA open source
+  - Soporte multi-plataforma (npm, brew, scoop, choco)
+  - Desktop app disponible (beta)
+
+### [hanni-obsidian-workflow](https://github.com/AlPeFe/hanni-obsidian-workflow)
+> Sistema de gestión de proyectos basado en Obsidian Canvas con agente IA
+
+- **Tecnología**: Obsidian Canvas, Hermes Agent, Python
+- **Características**:
+  - Nodos coloreados: verde=Ready, rojo=Human Intervention, azul=Completado
+  - Polling automático via cron job
+  - Notificaciones Telegram cuando hay intervención humana
+  - Gestión semiautomatizada de proyectos
+
+### [PolaperTaskBoard](https://github.com/AlPeFe/PolaperTaskBoard)
+> Kanban board con dependencias entre tareas, recursos globales y multi-selección
+
+- **Tecnología**: FastAPI + aiosqlite, TypeScript vanilla
+- **Características**:
+  - Drag & drop entre columnas
+  - Flechas de dependencia en SVG (bezier curves)
+  - Recursos globales asignables a cualquier tarea
+  - Multi-select con Shift+click
+  - API REST en puerto 3847
+
+### [tui-server-setup](https://github.com/AlPeFe/tui-server-setup)
+> TUI interactiva .NET 10 para setup de servidores Windows
+
+- **Tecnología**: .NET 10, Spectre.Console
+- **Características**:
+  - Instalación de software via Winget
+  - .NET SDK 8 y 10, Hosting Bundles
+  - Utilidades SQL Server (sqlcmd)
+  - Interfaz estilo hacker/terminal
+
 ### [SqlServerMcp](https://github.com/AlPeFe/SqlServerMcp)
-> Servidor MCP para SQL Server - Contexto de base de datos para LLMs
+> Servidor MCP para SQL Server — Contexto de base de datos para LLMs
 
 - **Tecnología**: .NET 10, Model Context Protocol
 - **Características**:
@@ -79,12 +121,14 @@ Lo que me diferencia:
   - Integración nativa con Microsoft Copilot y agentes IA
   - Type-safe con C# y soporte para procedimientos almacenados
 
-### [hermes-skills](https://github.com/AlPeFe/hermes-skills)
-> Skills personalizados para Hermes AI Agent (CLI)
+### [suwayomi-skill](https://github.com/AlPeFe/suwayomi-skill)
+> Skill para gestionar Suwayomi Server (manga reader) via API y browser automation
 
-- Automatización de tareas mediante IA conversacional
-- Integración con servicios externos
-- Workflows de desarrollo optimizados
+- **Tecnología**: Hermes Agent skill, Python
+- **Características**:
+  - Búsqueda y browse de manga desde fuentes instaladas
+  - Añadir manga a library
+  - Automatización de browser para interacciones complejas
 
 ---
 
@@ -139,7 +183,7 @@ Lo que me diferencia:
 │  • Agentes conversacionales con memoria y contexto      │
 │  • MCP servers para bases de datos relacionales         │
 │  • RAG (Retrieval-Augmented Generation) pipelines       │
-│  • Integración LLM local con servicios externos         │
+│  • Integración LLM local con servicios externos          │
 │  • Fine-tuning y evaluación de modelos open-source      │
 └─────────────────────────────────────────────────────────┘
 ```
@@ -149,6 +193,7 @@ Herramientas de IA que uso a diario:
 - **Microsoft Copilot** y GitHub Copilot para desarrollo
 - **MCP (Model Context Protocol)** para conectar bases de datos con IA
 - **Playwright MCP** para automatización de testing
+- **Hermes Agent** como orquestador de tareas automatizadas
 
 ---
 
@@ -163,7 +208,7 @@ Herramientas de IA que uso a diario:
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/alex-p%C3%A9rez-ferreira-a790b0236/)
 [![Instagram](https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://www.instagram.com/alpefe.exe)
 [![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/AlPeFe)
-[![Portfolio](https://img.shields.io/badge/Portfolio-alpefe.me-FF6B35?style=for-the-badge&logo=firefox&logoColor=white)](http://alpefe.me)
+[![Portfolio](https://img.shields.io/badge/Portfolio-alpefe.me-FF6F35?style=for-the-badge&logo=firefox&logoColor=white)](http://alpefe.me)
 
 ---
 
@@ -176,4 +221,4 @@ Herramientas de IA que uso a diario:
 
 ---
 
-*Última actualización: Marzo 2026*
+*Última actualización: Mayo 2026*
